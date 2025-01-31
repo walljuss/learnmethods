@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Numbers from "./components/Numbers";
+import Arrays from "./components/Arrays";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         </h1>
         <Navbar />
         <Routes>
-          <Route path="/numbers" element={<Numbers />} />
+          <Route path="/arrays" element={<Arrays />} />
           {/* <Route path="/strings" />
           <Route path="/arrays" />
           <Route path="/objects" /> */}
